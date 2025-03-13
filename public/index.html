@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Blood Finder</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS file -->
+</head>
+<body>
+
+    <h1>Emergency Blood Finder</h1>
+
+    <!-- Form to Create a Post -->
+    <form id="postForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="bloodGroup" placeholder="Blood Group" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="text" id="contact" placeholder="Contact" required>
+        <button type="submit">Add Post</button>
+    </form>
+
+    <!-- Posts List -->
+    <h2>Available Blood Donors</h2>
+    <ul id="postList"></ul>
+
+    <script src="script.js"></script> <!-- JavaScript File -->
+
+</body>
+</html>
