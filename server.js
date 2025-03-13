@@ -3,7 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const path = require("path");
-const Post = require("./Post"); // Import Post model
+const Post = require("./models/Post"); // Import Post model
 
 dotenv.config();
 
